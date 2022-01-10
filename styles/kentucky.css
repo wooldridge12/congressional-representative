@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://www.planetware.com/wpimages/2020/05/kentucky-best-places-to-visit-louisville.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2 {
+    color: white;
+}
+.kentuckyIntro {
+    background-color: lightgray;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 30%
+}
+.kentuckyPlaces {
+    background-color: lightgray;
+    padding: 0.5rem;
+    border-radius: 4px;
+    list-style-type: none;
+    margin-bottom: 2rem;
+    width: 30%;
+}
+.kentuckyListTitle {
+    font-size: larger;
+    font-weight: bolder;
+}
