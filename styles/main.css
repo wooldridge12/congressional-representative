@@ -41,4 +41,29 @@ h1 {
     text-align:center;
     border-radius:12px;
     margin-left:250px;
+    text-decoration: none;
+}
+.navBar {
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1%;
+}
+.navBarBtn {
+    background-color: blue;
+    color: white;
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 4px;
+    /* This will take all link unlines away */
+    text-decoration: none;
+}
+.navBarBtn:hover {
+    background-color: blue;
+    color: red;
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 4px;
+    /* This will take all link unlines away */
+    text-decoration: none;
 }

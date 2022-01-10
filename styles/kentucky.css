@@ -3,6 +3,30 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navBar {
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1%;
+}
+.navBarBtn {
+    background-color: blue;
+    color: white;
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 4px;
+    /* This will take all link unlines away */
+    text-decoration: none;
+}
+.navBarBtn:hover {
+    background-color: blue;
+    color: red;
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 4px;
+    /* This will take all link unlines away */
+    text-decoration: none;
+}
 h1, h2 {
     color: white;
 }
@@ -18,9 +42,19 @@ h1, h2 {
     border-radius: 4px;
     list-style-type: none;
     margin-bottom: 2rem;
-    width: 30%;
+    width: 50%;
 }
 .kentuckyListTitle {
     font-size: larger;
     font-weight: bolder;
+}
+.imageAndParagraph {
+    float: right;
+}
+img {
+    margin-left: 5%;
+    width: 60%;
+    height: 70%;
+    float: right;
+    border-radius: 6px;
 }
